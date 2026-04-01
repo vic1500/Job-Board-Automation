@@ -61,6 +61,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+raw_recipient_email =  os.environ.get("RECIPIENT_EMAIL")
+recipient_email = raw_recipient_email.split(",")
 # ─────────────────────────────────────────────
 #  YOUR CONFIG — FILL THIS IN
 # ─────────────────────────────────────────────
@@ -76,7 +78,7 @@ YOUR_CONFIG = {
     "gmail_app_password": os.environ.get("EMAIL_PASSWORD"),
 
     # Where to deliver the digest (can be same as sender)
-    "recipient_email": os.environ.get("RECIPIENT_EMAIL"),
+    "recipient_email": recipient_email,
 
     # How many days back to consider a listing "new"
     # 1 = only today | 2 = last 2 days (useful if the script missed a day)
@@ -170,6 +172,8 @@ IMPERSONATE = "chrome120"
 TIMEOUT = 30
 
 EMAIL_PORT = 587
+
+DEV_EMAIL = os.environ.get("DEV_EMAIL")
 
 # ─────────────────────────────────────────────
 #  SEEN LISTINGS TRACKER
@@ -888,9 +892,9 @@ def main():
         f"{validator._calls} Groq API call(s) used."
     )
     log.info("=" * 62)
-    
+
     log_html = build_logging_email("daily.log")
-    send_log_email(log_html, "victordman15@gmail.com", cfg)
+    send_log_email(log_html, DEV_EMAIL, cfg)
 
 if __name__ == "__main__":
     main()
