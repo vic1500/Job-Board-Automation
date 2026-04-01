@@ -1,0 +1,51 @@
+name: Daily Postdoc Scraper
+
+on:
+  schedule:
+    # Runs at 05:00 UTC every day (Which is 06:00 AM WAT in Lagos)
+    - cron: '0 5 * * *'
+  workflow_dispatch: # This line adds a "Run Workflow" button so you can test it manually
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the bot to save the master.log back to your repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 feedparser lxml groq curl_cffi playwright
+          playwright install chromium
+
+      - name: Run Scraper
+        env:
+          # Pulls your secure passwords from GitHub Secrets
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          DEV_EMAIL: ${{ secrets.DEV_EMAIL }}
+        # Change this to the actual name of your script!
+        run: python postdoc_agent_ai.py 
+
+      - name: Save Master Log and State
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          # Add BOTH files to be saved back to the repository
+          git add master.log seen_listings.json
+          
+          # The [skip ci] tag is VERY important! It stops the bot from accidentally triggering a new workflow run.
+          git commit -m "Update logs and seen listings [skip ci]" || echo "No changes to commit"
+          git push
