@@ -3,7 +3,7 @@ name: Daily Postdoc Scraper
 on:
   schedule:
     # Runs at 05:00 UTC every day (Which is 06:00 AM WAT in Lagos)
-    - cron: '0 5 * * *'
+    - cron: '17 2 * * *'
   workflow_dispatch: # This line adds a "Run Workflow" button so you can test it manually
 
 jobs:
