@@ -1,0 +1,145 @@
+2026-04-02 05:38:17,800 [INFO] ==============================================================
+2026-04-02 05:38:17,800 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-04-02 05:38:17,800 [INFO] ==============================================================
+2026-04-02 05:38:17,801 [INFO] Loaded 0 previously seen listing IDs
+2026-04-02 05:38:17,801 [INFO] Fetching mathjobs.org...
+2026-04-02 05:38:18,461 [INFO] 11 unseen listings from mathjobs.org
+2026-04-02 05:38:18,461 [INFO] Fetching mathhire.org...
+2026-04-02 05:38:28,195 [INFO] 40 unseen listings from mathhire.org
+2026-04-02 05:38:28,195 [INFO] Fetching academicpositions.com...
+2026-04-02 05:38:28,325 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-04-02 05:38:34,959 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=applied+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-04-02 05:38:41,935 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+methods&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-04-02 05:38:41,936 [INFO]   2 unseen listings from academicpositions.com
+2026-04-02 05:38:41,936 [INFO] Fetching academicpositions.com using Playwright...
+2026-04-02 05:39:02,845 [INFO]   93 unseen listings from academicpositions.com
+2026-04-02 05:39:02,846 [INFO] Total unseen before AI validation: 146
+2026-04-02 05:39:02,902 [INFO] AI validation: 146 listings across 30 batch(es)
+2026-04-02 05:39:02,903 [INFO]   Batch 1/30 — 5 listings...
+2026-04-02 05:39:03,407 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:39:04,920 [INFO]   Batch 2/30 — 5 listings...
+2026-04-02 05:39:05,301 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:39:06,802 [INFO]   Batch 3/30 — 5 listings...
+2026-04-02 05:39:07,133 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:39:08,634 [INFO]   Batch 4/30 — 5 listings...
+2026-04-02 05:39:08,959 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:39:10,460 [INFO]   Batch 5/30 — 5 listings...
+2026-04-02 05:39:10,512 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:39:10,512 [INFO] Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2026-04-02 05:39:20,975 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:39:22,476 [INFO]   Batch 6/30 — 5 listings...
+2026-04-02 05:39:22,521 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:39:22,522 [INFO] Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2026-04-02 05:39:36,892 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:39:38,393 [INFO]   Batch 7/30 — 5 listings...
+2026-04-02 05:39:38,443 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:39:38,443 [INFO] Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-04-02 05:39:51,826 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:39:53,327 [INFO]   Batch 8/30 — 5 listings...
+2026-04-02 05:39:53,390 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:39:53,391 [INFO] Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-02 05:39:59,721 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:40:01,222 [INFO]   Batch 9/30 — 5 listings...
+2026-04-02 05:40:01,267 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:01,268 [INFO] Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-02 05:40:07,606 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:40:09,107 [INFO]   Batch 10/30 — 5 listings...
+2026-04-02 05:40:09,150 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:09,150 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-02 05:40:14,521 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:40:16,022 [INFO]   Batch 11/30 — 5 listings...
+2026-04-02 05:40:16,110 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:16,110 [INFO] Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-02 05:40:22,176 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:22,177 [INFO] Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-02 05:40:23,588 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:40:25,089 [INFO]   Batch 12/30 — 5 listings...
+2026-04-02 05:40:25,140 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:25,140 [INFO] Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-04-02 05:40:34,528 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:40:36,029 [INFO]   Batch 13/30 — 5 listings...
+2026-04-02 05:40:36,077 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:36,077 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-02 05:40:44,486 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:40:45,987 [INFO]   Batch 14/30 — 5 listings...
+2026-04-02 05:40:46,031 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:46,031 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-02 05:40:54,417 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:40:55,918 [INFO]   Batch 15/30 — 5 listings...
+2026-04-02 05:40:55,966 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:40:55,966 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-02 05:41:04,275 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:41:05,776 [INFO]   Batch 16/30 — 5 listings...
+2026-04-02 05:41:05,820 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:41:05,821 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-02 05:41:08,200 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:41:09,701 [INFO]   Batch 17/30 — 5 listings...
+2026-04-02 05:41:09,743 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:41:09,743 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-02 05:41:13,237 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:41:14,739 [INFO]   Batch 18/30 — 5 listings...
+2026-04-02 05:41:14,783 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:41:14,783 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-02 05:41:23,105 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:41:24,606 [INFO]   Batch 19/30 — 5 listings...
+2026-04-02 05:41:24,654 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:41:24,654 [INFO] Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2026-04-02 05:41:40,055 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:41:41,556 [INFO]   Batch 20/30 — 5 listings...
+2026-04-02 05:41:41,995 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:41:43,496 [INFO]   Batch 21/30 — 5 listings...
+2026-04-02 05:41:43,548 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:41:43,548 [INFO] Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-04-02 05:41:52,615 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:41:52,615 [INFO] Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-02 05:41:59,060 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:42:00,561 [INFO]   Batch 22/30 — 5 listings...
+2026-04-02 05:42:00,609 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:00,610 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-02 05:42:03,660 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:03,660 [INFO] Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-02 05:42:11,283 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:42:12,784 [INFO]   Batch 23/30 — 5 listings...
+2026-04-02 05:42:12,833 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:12,833 [INFO] Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-02 05:42:13,881 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:13,882 [INFO] Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-02 05:42:21,409 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:42:22,910 [INFO]   Batch 24/30 — 5 listings...
+2026-04-02 05:42:22,961 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:22,962 [INFO] Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-02 05:42:24,365 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:42:25,867 [INFO]   Batch 25/30 — 5 listings...
+2026-04-02 05:42:25,910 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:25,910 [INFO] Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-04-02 05:42:35,265 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:42:36,766 [INFO]   Batch 26/30 — 5 listings...
+2026-04-02 05:42:36,813 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:36,813 [INFO] Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-04-02 05:42:46,251 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:42:47,752 [INFO]   Batch 27/30 — 5 listings...
+2026-04-02 05:42:47,797 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:47,797 [INFO] Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2026-04-02 05:42:58,291 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:42:59,792 [INFO]   Batch 28/30 — 5 listings...
+2026-04-02 05:42:59,836 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:42:59,836 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-02 05:43:08,352 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:43:09,853 [INFO]   Batch 29/30 — 5 listings...
+2026-04-02 05:43:09,897 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:43:09,898 [INFO] Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2026-04-02 05:43:21,274 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:43:22,775 [INFO]   Batch 30/30 — 1 listings...
+2026-04-02 05:43:22,823 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-02 05:43:22,823 [INFO] Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2026-04-02 05:43:35,078 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 05:43:35,079 [INFO] AI done: 64/146 relevant (30 API calls)
+2026-04-02 05:43:35,081 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-02 05:43:36,708 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-04-02 05:43:36,711 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-02 05:43:37,852 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-04-02 05:43:37,852 [INFO] ==============================================================
+2026-04-02 05:43:37,853 [INFO] Done. 64/146 listings relevant. 30 Groq API call(s) used.
+2026-04-02 05:43:37,853 [INFO] ==============================================================
+2026-04-02 05:43:37,853 [INFO] Sending Logs to victordman15@gmail.com...
+2026-04-02 05:43:39,032 [INFO] Log Email sent to victordman15@gmail.com successfully!
