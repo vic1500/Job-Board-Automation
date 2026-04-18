@@ -615,3 +615,31 @@
 2026-04-17 05:11:26,227 [INFO] ==============================================================
 2026-04-17 05:11:26,228 [INFO] Sending Logs to victordman15@gmail.com...
 2026-04-17 05:11:27,666 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-04-18 04:40:43,981 [INFO] ==============================================================
+2026-04-18 04:40:43,981 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-04-18 04:40:43,981 [INFO] ==============================================================
+2026-04-18 04:40:43,982 [INFO] Loaded 238 previously seen listing IDs
+2026-04-18 04:40:43,982 [INFO] Fetching mathjobs.org...
+2026-04-18 04:40:44,696 [INFO] 4 unseen listings from mathjobs.org
+2026-04-18 04:40:44,696 [INFO] Fetching mathhire.org...
+2026-04-18 04:40:54,527 [INFO] 0 unseen listings from mathhire.org
+2026-04-18 04:40:54,527 [INFO] Fetching academicpositions.com...
+2026-04-18 04:40:54,683 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-04-18 04:41:08,776 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-04-18 04:41:14,009 [INFO]   0 unseen listings from academicpositions.com
+2026-04-18 04:41:14,010 [INFO] Fetching academicpositions.com using Playwright...
+2026-04-18 04:41:35,118 [INFO]   1 unseen listings from academicpositions.com
+2026-04-18 04:41:35,118 [INFO] Total unseen before AI validation: 5
+2026-04-18 04:41:35,156 [INFO] AI validation: 5 listings across 1 batch(es)
+2026-04-18 04:41:35,156 [INFO]   Batch 1/1 — 5 listings...
+2026-04-18 04:41:35,759 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-18 04:41:35,773 [INFO] AI done: 3/5 relevant (1 API call)
+2026-04-18 04:41:35,774 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-18 04:41:38,285 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-04-18 04:41:38,285 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-18 04:41:39,470 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-04-18 04:41:39,470 [INFO] ==============================================================
+2026-04-18 04:41:39,470 [INFO] Done. 3/5 listings relevant. 1 Groq API call(s) used.
+2026-04-18 04:41:39,471 [INFO] ==============================================================
+2026-04-18 04:41:39,471 [INFO] Sending Logs to victordman15@gmail.com...
+2026-04-18 04:41:40,616 [INFO] Log Email sent to victordman15@gmail.com successfully!
