@@ -643,3 +643,27 @@
 2026-04-18 04:41:39,471 [INFO] ==============================================================
 2026-04-18 04:41:39,471 [INFO] Sending Logs to victordman15@gmail.com...
 2026-04-18 04:41:40,616 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-04-19 05:11:09,547 [INFO] ==============================================================
+2026-04-19 05:11:09,547 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-04-19 05:11:09,547 [INFO] ==============================================================
+2026-04-19 05:11:09,547 [INFO] Loaded 243 previously seen listing IDs
+2026-04-19 05:11:09,548 [INFO] Fetching mathjobs.org...
+2026-04-19 05:11:10,641 [INFO] 0 unseen listings from mathjobs.org
+2026-04-19 05:11:10,642 [INFO] Fetching mathhire.org...
+2026-04-19 05:11:20,401 [INFO] 0 unseen listings from mathhire.org
+2026-04-19 05:11:20,401 [INFO] Fetching academicpositions.com...
+2026-04-19 05:11:20,466 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-04-19 05:11:34,792 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-04-19 05:11:38,692 [INFO]   0 unseen listings from academicpositions.com
+2026-04-19 05:11:38,692 [INFO] Fetching academicpositions.com using Playwright...
+2026-04-19 05:12:01,688 [INFO]   0 unseen listings from academicpositions.com
+2026-04-19 05:12:01,688 [INFO] Total unseen before AI validation: 0
+2026-04-19 05:12:01,727 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-19 05:12:03,184 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-04-19 05:12:03,184 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-19 05:12:05,429 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-04-19 05:12:05,429 [INFO] ==============================================================
+2026-04-19 05:12:05,429 [INFO] Done. 0/0 listings relevant. 0 Groq API call(s) used.
+2026-04-19 05:12:05,429 [INFO] ==============================================================
+2026-04-19 05:12:05,430 [INFO] Sending Logs to victordman15@gmail.com...
+2026-04-19 05:12:07,194 [INFO] Log Email sent to victordman15@gmail.com successfully!
