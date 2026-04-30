@@ -974,3 +974,34 @@
 2026-04-29 05:35:41,147 [INFO] ==============================================================
 2026-04-29 05:35:41,147 [INFO] Sending Logs to victordman15@gmail.com...
 2026-04-29 05:35:44,376 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-04-30 05:38:53,348 [INFO] ==============================================================
+2026-04-30 05:38:53,348 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-04-30 05:38:53,348 [INFO] ==============================================================
+2026-04-30 05:38:53,348 [INFO] Loaded 300 previously seen listing IDs
+2026-04-30 05:38:53,348 [INFO] Fetching mathjobs.org...
+2026-04-30 05:38:53,948 [INFO] 5 unseen listings from mathjobs.org
+2026-04-30 05:38:53,948 [INFO] Fetching mathhire.org...
+2026-04-30 05:39:23,951 [WARNING] mathhire.org error (https://mathhire.org/jobs/?position_type=postdoc): Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-04-30 05:39:53,953 [WARNING] mathhire.org error (https://mathhire.org/jobs/?search=numerical+analysis): Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-04-30 05:40:23,955 [WARNING] mathhire.org error (https://mathhire.org/jobs/?search=applied+mathematics): Failed to perform, curl: (28) Connection timed out after 30000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-04-30 05:40:53,958 [WARNING] mathhire.org error (https://mathhire.org/jobs/?search=computational+mathematics): Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-04-30 05:41:23,960 [WARNING] mathhire.org error (https://mathhire.org/jobs/?search=scientific+computing): Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-04-30 05:41:23,960 [INFO] 0 unseen listings from mathhire.org
+2026-04-30 05:41:23,960 [INFO] Fetching academicpositions.com...
+2026-04-30 05:41:51,094 [INFO]   0 unseen listings from academicpositions.com
+2026-04-30 05:41:51,095 [INFO] Fetching academicpositions.com using Playwright...
+2026-04-30 05:42:12,258 [INFO]   0 unseen listings from academicpositions.com
+2026-04-30 05:42:12,258 [INFO] Total unseen before AI validation: 5
+2026-04-30 05:42:12,295 [INFO] AI validation: 5 listings across 1 batch(es)
+2026-04-30 05:42:12,295 [INFO]   Batch 1/1 — 5 listings...
+2026-04-30 05:42:12,929 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 05:42:12,944 [INFO] AI done: 3/5 relevant (1 API call)
+2026-04-30 05:42:12,945 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-30 05:42:14,834 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-04-30 05:42:14,835 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-04-30 05:42:15,895 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-04-30 05:42:15,895 [INFO] ==============================================================
+2026-04-30 05:42:15,895 [INFO] Done. 3/5 listings relevant. 1 Groq API call(s) used.
+2026-04-30 05:42:15,895 [INFO] ==============================================================
+2026-04-30 05:42:15,896 [INFO] Sending Logs to victordman15@gmail.com...
+2026-04-30 05:42:16,892 [INFO] Log Email sent to victordman15@gmail.com successfully!
