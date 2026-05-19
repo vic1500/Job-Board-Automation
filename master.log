@@ -1471,3 +1471,29 @@
 2026-05-18 06:33:55,506 [INFO] ==============================================================
 2026-05-18 06:33:55,506 [INFO] Sending Logs to victordman15@gmail.com...
 2026-05-18 06:33:57,542 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-05-19 06:19:16,920 [INFO] ==============================================================
+2026-05-19 06:19:16,921 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-05-19 06:19:16,921 [INFO] ==============================================================
+2026-05-19 06:19:16,921 [INFO] Loaded 387 previously seen listing IDs
+2026-05-19 06:19:16,921 [INFO] Fetching mathjobs.org...
+2026-05-19 06:19:18,012 [INFO] 2 unseen listings from mathjobs.org
+2026-05-19 06:19:18,013 [INFO] Fetching mathhire.org...
+2026-05-19 06:19:28,230 [INFO] 0 unseen listings from mathhire.org
+2026-05-19 06:19:28,230 [INFO] Fetching academicpositions.com...
+2026-05-19 06:19:56,499 [INFO]   0 unseen listings from academicpositions.com
+2026-05-19 06:19:56,500 [INFO] Fetching academicpositions.com using Playwright...
+2026-05-19 06:20:18,930 [INFO]   0 unseen listings from academicpositions.com
+2026-05-19 06:20:18,930 [INFO] Total unseen before AI validation: 2
+2026-05-19 06:20:18,958 [INFO] AI validation: 2 listings across 1 batch(es)
+2026-05-19 06:20:18,958 [INFO]   Batch 1/1 — 2 listings...
+2026-05-19 06:20:19,351 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 06:20:19,363 [INFO] AI done: 1/2 relevant (1 API call)
+2026-05-19 06:20:19,363 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-05-19 06:20:20,968 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-05-19 06:20:20,968 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-05-19 06:20:23,621 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-05-19 06:20:23,622 [INFO] ==============================================================
+2026-05-19 06:20:23,622 [INFO] Done. 1/2 listings relevant. 1 Groq API call(s) used.
+2026-05-19 06:20:23,622 [INFO] ==============================================================
+2026-05-19 06:20:23,622 [INFO] Sending Logs to victordman15@gmail.com...
+2026-05-19 06:20:25,031 [INFO] Log Email sent to victordman15@gmail.com successfully!
