@@ -2495,3 +2495,54 @@
 2026-06-23 06:19:08,778 [INFO] ==============================================================
 2026-06-23 06:19:08,778 [INFO] Sending Logs to victordman15@gmail.com...
 2026-06-23 06:19:09,664 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-06-24 06:15:18,227 [INFO] ==============================================================
+2026-06-24 06:15:18,227 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-06-24 06:15:18,227 [INFO] ==============================================================
+2026-06-24 06:15:18,227 [INFO] Loaded 526 previously seen listing IDs
+2026-06-24 06:15:18,227 [INFO] Fetching mathjobs.org...
+2026-06-24 06:15:18,831 [INFO] 4 unseen listings from mathjobs.org
+2026-06-24 06:15:18,831 [INFO] Fetching mathhire.org...
+2026-06-24 06:15:28,044 [INFO] 0 unseen listings from mathhire.org
+2026-06-24 06:15:28,044 [INFO] Fetching academicpositions.com...
+2026-06-24 06:15:28,168 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-06-24 06:15:58,173 [WARNING] academicpositions.com error: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-06-24 06:15:58,193 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=applied+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-06-24 06:15:58,212 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-06-24 06:15:58,232 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+methods&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-06-24 06:15:58,233 [INFO]   0 unseen listings from academicpositions.com
+2026-06-24 06:15:58,233 [INFO] Fetching academicpositions.com using Playwright...
+2026-06-24 06:16:30,351 [WARNING] academicpositions.com error on numerical+analysis: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor", waiting until "domcontentloaded"
+
+2026-06-24 06:17:00,357 [WARNING] academicpositions.com error on computational+mathematics: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://academicpositions.com/find-jobs?search=computational+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor", waiting until "domcontentloaded"
+
+2026-06-24 06:17:30,359 [WARNING] academicpositions.com error on applied+mathematics: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://academicpositions.com/find-jobs?search=applied+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor", waiting until "domcontentloaded"
+
+2026-06-24 06:18:00,361 [WARNING] academicpositions.com error on scientific+computing: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor", waiting until "domcontentloaded"
+
+2026-06-24 06:18:30,368 [WARNING] academicpositions.com error on numerical+methods: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://academicpositions.com/find-jobs?search=numerical+methods&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor", waiting until "domcontentloaded"
+
+2026-06-24 06:18:30,402 [INFO]   0 unseen listings from academicpositions.com
+2026-06-24 06:18:30,402 [INFO] Total unseen before AI validation: 4
+2026-06-24 06:18:30,438 [INFO] AI validation: 4 listings across 1 batch(es)
+2026-06-24 06:18:30,438 [INFO]   Batch 1/1 — 4 listings...
+2026-06-24 06:18:30,756 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-24 06:18:30,771 [INFO] AI done: 2/4 relevant (1 API call)
+2026-06-24 06:18:30,771 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-06-24 06:18:32,255 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-06-24 06:18:32,255 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-06-24 06:18:33,764 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-06-24 06:18:33,764 [INFO] ==============================================================
+2026-06-24 06:18:33,764 [INFO] Done. 2/4 listings relevant. 1 Groq API call(s) used.
+2026-06-24 06:18:33,765 [INFO] ==============================================================
+2026-06-24 06:18:33,765 [INFO] Sending Logs to victordman15@gmail.com...
+2026-06-24 06:18:35,196 [INFO] Log Email sent to victordman15@gmail.com successfully!
