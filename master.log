@@ -3538,3 +3538,30 @@ Call log:
 2026-07-28 05:24:53,807 [INFO] ==============================================================
 2026-07-28 05:24:53,807 [INFO] Sending Logs to victordman15@gmail.com...
 2026-07-28 05:24:55,847 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-07-29 05:30:51,187 [INFO] ==============================================================
+2026-07-29 05:30:51,187 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-07-29 05:30:51,187 [INFO] ==============================================================
+2026-07-29 05:30:51,188 [INFO] Loaded 678 previously seen listing IDs
+2026-07-29 05:30:51,188 [INFO] Fetching mathjobs.org...
+2026-07-29 05:30:52,094 [INFO] 5 unseen listings from mathjobs.org
+2026-07-29 05:30:52,094 [INFO] Fetching mathhire.org...
+2026-07-29 05:31:05,875 [INFO] 0 unseen listings from mathhire.org
+2026-07-29 05:31:05,875 [INFO] Fetching academicpositions.com...
+2026-07-29 05:31:11,703 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=computational+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-07-29 05:31:28,809 [INFO]   0 unseen listings from academicpositions.com
+2026-07-29 05:31:28,809 [INFO] Fetching academicpositions.com using Playwright...
+2026-07-29 05:31:49,186 [INFO]   0 unseen listings from academicpositions.com
+2026-07-29 05:31:49,187 [INFO] Total unseen before AI validation: 5
+2026-07-29 05:31:49,221 [INFO] AI validation: 5 listings across 1 batch(es)
+2026-07-29 05:31:49,221 [INFO]   Batch 1/1 — 5 listings...
+2026-07-29 05:31:49,681 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-29 05:31:49,695 [INFO] AI done: 4/5 relevant (1 API call)
+2026-07-29 05:31:49,696 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-07-29 05:31:51,763 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-07-29 05:31:51,763 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-07-29 05:31:52,740 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-07-29 05:31:52,740 [INFO] ==============================================================
+2026-07-29 05:31:52,740 [INFO] Done. 4/5 listings relevant. 1 Groq API call(s) used.
+2026-07-29 05:31:52,740 [INFO] ==============================================================
+2026-07-29 05:31:52,740 [INFO] Sending Logs to victordman15@gmail.com...
+2026-07-29 05:31:53,660 [INFO] Log Email sent to victordman15@gmail.com successfully!
