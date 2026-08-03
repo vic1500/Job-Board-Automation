@@ -3683,3 +3683,34 @@ Call log:
 2026-08-02 05:36:54,699 [INFO] ==============================================================
 2026-08-02 05:36:54,699 [INFO] Sending Logs to victordman15@gmail.com...
 2026-08-02 05:36:58,136 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-08-03 05:51:55,323 [INFO] ==============================================================
+2026-08-03 05:51:55,323 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-08-03 05:51:55,323 [INFO] ==============================================================
+2026-08-03 05:51:55,323 [INFO] Loaded 705 previously seen listing IDs
+2026-08-03 05:51:55,323 [INFO] Fetching mathjobs.org...
+2026-08-03 05:51:56,081 [INFO] 2 unseen listings from mathjobs.org
+2026-08-03 05:51:56,081 [INFO] Fetching mathhire.org...
+2026-08-03 05:52:05,886 [INFO] 0 unseen listings from mathhire.org
+2026-08-03 05:52:05,886 [INFO] Fetching academicpositions.com...
+2026-08-03 05:52:06,079 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-03 05:52:06,119 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=computational+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-03 05:52:06,170 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=applied+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-03 05:52:06,207 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-03 05:52:06,238 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+methods&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-03 05:52:06,239 [INFO]   0 unseen listings from academicpositions.com
+2026-08-03 05:52:06,239 [INFO] Fetching academicpositions.com using Playwright...
+2026-08-03 05:52:27,954 [INFO]   0 unseen listings from academicpositions.com
+2026-08-03 05:52:27,955 [INFO] Total unseen before AI validation: 2
+2026-08-03 05:52:27,978 [INFO] AI validation: 2 listings across 1 batch(es)
+2026-08-03 05:52:27,979 [INFO]   Batch 1/1 — 2 listings...
+2026-08-03 05:52:28,464 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 05:52:28,473 [INFO] AI done: 2/2 relevant (1 API call)
+2026-08-03 05:52:28,474 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-08-03 05:52:31,811 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-08-03 05:52:31,812 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-08-03 05:52:35,187 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-08-03 05:52:35,187 [INFO] ==============================================================
+2026-08-03 05:52:35,187 [INFO] Done. 2/2 listings relevant. 1 Groq API call(s) used.
+2026-08-03 05:52:35,187 [INFO] ==============================================================
+2026-08-03 05:52:35,188 [INFO] Sending Logs to victordman15@gmail.com...
+2026-08-03 05:52:38,441 [INFO] Log Email sent to victordman15@gmail.com successfully!
