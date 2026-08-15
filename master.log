@@ -4041,3 +4041,34 @@ Call log:
 2026-08-14 04:18:12,046 [INFO] ==============================================================
 2026-08-14 04:18:12,046 [INFO] Sending Logs to victordman15@gmail.com...
 2026-08-14 04:18:15,402 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-08-15 03:02:32,526 [INFO] ==============================================================
+2026-08-15 03:02:32,526 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-08-15 03:02:32,526 [INFO] ==============================================================
+2026-08-15 03:02:32,526 [INFO] Loaded 756 previously seen listing IDs
+2026-08-15 03:02:32,526 [INFO] Fetching mathjobs.org...
+2026-08-15 03:02:33,419 [INFO] 0 unseen listings from mathjobs.org
+2026-08-15 03:02:33,419 [INFO] Fetching mathhire.org...
+2026-08-15 03:03:03,423 [WARNING] mathhire.org error (https://mathhire.org/jobs/?position_type=postdoc): Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-15 03:03:33,426 [WARNING] mathhire.org error (https://mathhire.org/jobs/?search=numerical+analysis): Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-15 03:04:03,429 [WARNING] mathhire.org error (https://mathhire.org/jobs/?search=applied+mathematics): Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-15 03:04:19,710 [INFO] 0 unseen listings from mathhire.org
+2026-08-15 03:04:19,710 [INFO] Fetching academicpositions.com...
+2026-08-15 03:04:33,262 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=applied+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-15 03:04:33,302 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-15 03:04:40,683 [INFO]   0 unseen listings from academicpositions.com
+2026-08-15 03:04:40,683 [INFO] Fetching academicpositions.com using Playwright...
+2026-08-15 03:05:03,169 [INFO]   1 unseen listings from academicpositions.com
+2026-08-15 03:05:03,169 [INFO] Total unseen before AI validation: 1
+2026-08-15 03:05:03,199 [INFO] AI validation: 1 listings across 1 batch(es)
+2026-08-15 03:05:03,199 [INFO]   Batch 1/1 — 1 listings...
+2026-08-15 03:05:03,587 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 03:05:03,598 [INFO] AI done: 0/1 relevant (1 API call)
+2026-08-15 03:05:03,599 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-08-15 03:05:04,918 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-08-15 03:05:04,918 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-08-15 03:05:06,147 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-08-15 03:05:06,148 [INFO] ==============================================================
+2026-08-15 03:05:06,148 [INFO] Done. 0/1 listings relevant. 1 Groq API call(s) used.
+2026-08-15 03:05:06,148 [INFO] ==============================================================
+2026-08-15 03:05:06,148 [INFO] Sending Logs to victordman15@gmail.com...
+2026-08-15 03:05:07,429 [INFO] Log Email sent to victordman15@gmail.com successfully!
