@@ -4163,3 +4163,31 @@ Call log:
 2026-08-18 03:07:51,581 [INFO] ==============================================================
 2026-08-18 03:07:51,582 [INFO] Sending Logs to victordman15@gmail.com...
 2026-08-18 03:07:52,949 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-08-19 03:09:30,533 [INFO] ==============================================================
+2026-08-19 03:09:30,534 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-08-19 03:09:30,534 [INFO] ==============================================================
+2026-08-19 03:09:30,534 [INFO] Loaded 764 previously seen listing IDs
+2026-08-19 03:09:30,534 [INFO] Fetching mathjobs.org...
+2026-08-19 03:09:31,462 [INFO] 5 unseen listings from mathjobs.org
+2026-08-19 03:09:31,463 [INFO] Fetching mathhire.org...
+2026-08-19 03:09:41,099 [INFO] 0 unseen listings from mathhire.org
+2026-08-19 03:09:41,099 [INFO] Fetching academicpositions.com...
+2026-08-19 03:09:41,220 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-08-19 03:10:08,947 [INFO]   0 unseen listings from academicpositions.com
+2026-08-19 03:10:08,948 [INFO] Fetching academicpositions.com using Playwright...
+2026-08-19 03:10:32,929 [INFO]   0 unseen listings from academicpositions.com
+2026-08-19 03:10:32,929 [INFO] Total unseen before AI validation: 5
+2026-08-19 03:10:32,966 [INFO] AI validation: 5 listings across 1 batch(es)
+2026-08-19 03:10:32,966 [INFO]   Batch 1/1 — 5 listings...
+2026-08-19 03:10:33,075 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-08-19 03:10:33,076 [WARNING] Groq API error: Error code: 404 - {'error': {'message': 'The model `llama-3.1-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} — including full batch as fallback
+2026-08-19 03:10:33,076 [INFO] AI done: 0/5 relevant (0 API calls)
+2026-08-19 03:10:33,077 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-08-19 03:10:34,335 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-08-19 03:10:34,336 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-08-19 03:10:35,641 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-08-19 03:10:35,642 [INFO] ==============================================================
+2026-08-19 03:10:35,642 [INFO] Done. 5/5 listings relevant. 0 Groq API call(s) used.
+2026-08-19 03:10:35,642 [INFO] ==============================================================
+2026-08-19 03:10:35,642 [INFO] Sending Logs to victordman15@gmail.com...
+2026-08-19 03:10:37,780 [INFO] Log Email sent to victordman15@gmail.com successfully!
