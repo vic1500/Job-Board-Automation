@@ -86,7 +86,7 @@ YOUR_CONFIG = {
 
     # Groq model — llama-3.1-8b-instant is fast and free
     # Smarter alternative: "llama3-70b-8192" (still free, slower)
-    "groq_model": "llama-3.1-8b-instant",
+    "groq_model": "openai/gpt-oss-20b",
 
     # How many listings to send to the AI per batch
     # Lower = more accurate, more API calls | Higher = fewer calls
