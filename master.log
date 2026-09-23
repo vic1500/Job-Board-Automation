@@ -5284,3 +5284,39 @@ Call log:
 2026-09-22 07:41:36,886 [INFO] ==============================================================
 2026-09-22 07:41:36,886 [INFO] Sending Logs to victordman15@gmail.com...
 2026-09-22 07:41:40,121 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-09-23 07:43:16,963 [INFO] ==============================================================
+2026-09-23 07:43:16,963 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-09-23 07:43:16,963 [INFO] ==============================================================
+2026-09-23 07:43:16,963 [INFO] Loaded 1051 previously seen listing IDs
+2026-09-23 07:43:16,963 [INFO] Fetching mathjobs.org...
+2026-09-23 07:43:17,844 [INFO] 19 unseen listings from mathjobs.org
+2026-09-23 07:43:17,844 [INFO] Fetching mathhire.org...
+2026-09-23 07:43:27,750 [INFO] 0 unseen listings from mathhire.org
+2026-09-23 07:43:27,751 [INFO] Fetching academicpositions.com...
+2026-09-23 07:43:27,878 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-09-23 07:43:27,927 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=computational+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-09-23 07:43:42,187 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+methods&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-09-23 07:43:42,188 [INFO]   0 unseen listings from academicpositions.com
+2026-09-23 07:43:42,188 [INFO] Fetching academicpositions.com using Playwright...
+2026-09-23 07:44:00,031 [INFO]   0 unseen listings from academicpositions.com
+2026-09-23 07:44:00,031 [INFO] Total unseen before AI validation: 19
+2026-09-23 07:44:00,053 [INFO] AI validation: 19 listings across 4 batch(es)
+2026-09-23 07:44:00,053 [INFO]   Batch 1/4 — 5 listings...
+2026-09-23 07:44:01,032 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 07:44:02,540 [INFO]   Batch 2/4 — 5 listings...
+2026-09-23 07:44:03,693 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 07:44:05,193 [INFO]   Batch 3/4 — 5 listings...
+2026-09-23 07:44:06,202 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 07:44:07,702 [INFO]   Batch 4/4 — 4 listings...
+2026-09-23 07:44:08,997 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 07:44:08,998 [WARNING] AI returned invalid JSON — including full batch as fallback
+2026-09-23 07:44:08,998 [INFO] AI done: 8/19 relevant (4 API calls)
+2026-09-23 07:44:08,999 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-09-23 07:44:12,469 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-09-23 07:44:12,469 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-09-23 07:44:14,749 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-09-23 07:44:14,749 [INFO] ==============================================================
+2026-09-23 07:44:14,749 [INFO] Done. 12/19 listings relevant. 4 Groq API call(s) used.
+2026-09-23 07:44:14,749 [INFO] ==============================================================
+2026-09-23 07:44:14,750 [INFO] Sending Logs to victordman15@gmail.com...
+2026-09-23 07:44:18,048 [INFO] Log Email sent to victordman15@gmail.com successfully!
