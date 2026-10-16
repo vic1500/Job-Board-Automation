@@ -6079,3 +6079,38 @@ Call log:
 2026-10-15 07:23:24,236 [INFO] ==============================================================
 2026-10-15 07:23:24,237 [INFO] Sending Logs to victordman15@gmail.com...
 2026-10-15 07:23:27,544 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-10-16 07:06:21,062 [INFO] ==============================================================
+2026-10-16 07:06:21,062 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-10-16 07:06:21,063 [INFO] ==============================================================
+2026-10-16 07:06:21,063 [INFO] Loaded 1332 previously seen listing IDs
+2026-10-16 07:06:21,063 [INFO] Fetching mathjobs.org...
+2026-10-16 07:06:22,789 [INFO] 15 unseen listings from mathjobs.org
+2026-10-16 07:06:22,790 [INFO] Fetching mathhire.org...
+2026-10-16 07:06:33,347 [INFO] 0 unseen listings from mathhire.org
+2026-10-16 07:06:33,347 [INFO] Fetching academicpositions.com...
+2026-10-16 07:06:33,457 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-10-16 07:06:33,496 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=computational+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-10-16 07:06:33,531 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=applied+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-10-16 07:06:33,563 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-10-16 07:06:33,603 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+methods&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-10-16 07:06:33,603 [INFO]   0 unseen listings from academicpositions.com
+2026-10-16 07:06:33,603 [INFO] Fetching academicpositions.com using Playwright...
+2026-10-16 07:06:49,633 [INFO]   0 unseen listings from academicpositions.com
+2026-10-16 07:06:49,633 [INFO] Total unseen before AI validation: 15
+2026-10-16 07:06:49,669 [INFO] AI validation: 15 listings across 3 batch(es)
+2026-10-16 07:06:49,669 [INFO]   Batch 1/3 — 5 listings...
+2026-10-16 07:06:50,885 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-16 07:06:52,394 [INFO]   Batch 2/3 — 5 listings...
+2026-10-16 07:06:53,471 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-16 07:06:54,972 [INFO]   Batch 3/3 — 5 listings...
+2026-10-16 07:06:56,006 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-16 07:06:56,007 [INFO] AI done: 8/15 relevant (3 API calls)
+2026-10-16 07:06:56,009 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-10-16 07:06:57,649 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-10-16 07:06:57,650 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-10-16 07:06:59,205 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-10-16 07:06:59,206 [INFO] ==============================================================
+2026-10-16 07:06:59,206 [INFO] Done. 8/15 listings relevant. 3 Groq API call(s) used.
+2026-10-16 07:06:59,206 [INFO] ==============================================================
+2026-10-16 07:06:59,206 [INFO] Sending Logs to victordman15@gmail.com...
+2026-10-16 07:07:01,257 [INFO] Log Email sent to victordman15@gmail.com successfully!
