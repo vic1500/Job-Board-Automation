@@ -6813,3 +6813,36 @@ Call log:
 2026-11-06 09:19:44,611 [INFO] ==============================================================
 2026-11-06 09:19:44,612 [INFO] Sending Logs to victordman15@gmail.com...
 2026-11-06 09:19:45,991 [INFO] Log Email sent to victordman15@gmail.com successfully!
+2026-11-07 08:43:24,605 [INFO] ==============================================================
+2026-11-07 08:43:24,605 [INFO] POSTDOC AGENT (AI-powered) — Daily run starting
+2026-11-07 08:43:24,606 [INFO] ==============================================================
+2026-11-07 08:43:24,606 [INFO] Loaded 1542 previously seen listing IDs
+2026-11-07 08:43:24,606 [INFO] Fetching mathjobs.org...
+2026-11-07 08:43:25,417 [INFO] 9 unseen listings from mathjobs.org
+2026-11-07 08:43:25,418 [INFO] Fetching mathhire.org...
+2026-11-07 08:43:34,262 [INFO] 0 unseen listings from mathhire.org
+2026-11-07 08:43:34,262 [INFO] Fetching academicpositions.com...
+2026-11-07 08:43:34,306 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+analysis&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-11-07 08:43:34,332 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=computational+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-11-07 08:43:34,352 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=applied+mathematics&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-11-07 08:43:34,385 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=scientific+computing&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-11-07 08:43:34,411 [WARNING] Failed to fetch https://academicpositions.com/find-jobs?search=numerical+methods&positions[0]=post-doc&positions[1]=associate-professor&positions[2]=lecturersenior-lecturer&positions[3]=researcher&positions[4]=research-assistant&positions[5]=professor - Status Code: 403
+2026-11-07 08:43:34,412 [INFO]   0 unseen listings from academicpositions.com
+2026-11-07 08:43:34,412 [INFO] Fetching academicpositions.com using Playwright...
+2026-11-07 08:43:51,499 [INFO]   0 unseen listings from academicpositions.com
+2026-11-07 08:43:51,499 [INFO] Total unseen before AI validation: 9
+2026-11-07 08:43:51,532 [INFO] AI validation: 9 listings across 2 batch(es)
+2026-11-07 08:43:51,533 [INFO]   Batch 1/2 — 5 listings...
+2026-11-07 08:43:52,349 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 08:43:53,856 [INFO]   Batch 2/2 — 4 listings...
+2026-11-07 08:43:54,824 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 08:43:54,825 [INFO] AI done: 7/9 relevant (2 API calls)
+2026-11-07 08:43:54,827 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-11-07 08:43:57,607 [INFO] Email sent to victordman15@gmail.com successfully!
+2026-11-07 08:43:57,608 [INFO] Sending digest to ['victordman15@gmail.com', ' grace.akinlabi@gmail.com']...
+2026-11-07 08:43:58,936 [INFO] Email sent to  grace.akinlabi@gmail.com successfully!
+2026-11-07 08:43:58,936 [INFO] ==============================================================
+2026-11-07 08:43:58,936 [INFO] Done. 7/9 listings relevant. 2 Groq API call(s) used.
+2026-11-07 08:43:58,936 [INFO] ==============================================================
+2026-11-07 08:43:58,936 [INFO] Sending Logs to victordman15@gmail.com...
+2026-11-07 08:43:59,722 [INFO] Log Email sent to victordman15@gmail.com successfully!
